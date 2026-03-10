@@ -11,7 +11,7 @@
 //- 500 → "FAIL - Internal Server Error: Backend issue"
 //- Any other → "UNKNOWN - Unhandled status code"
 
-let responseCode = 401;
+let responseCode = 200;
 switch (responseCode) {
     case 200:
         console.log("PASS - OK: Request successful");

@@ -10,3 +10,4 @@ switch (status) {
 }
 
 // Output: "0 matched" (0 === 0, NOT 0 === false)
+
