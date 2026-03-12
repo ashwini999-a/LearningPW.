@@ -91,3 +91,8 @@ let arr = [10, 45, 23, 67, 12];
 let min = arr.reduce((a, b) => a < b ? a : b);
 console.log(min);
 
+
+
+/*If the initial value is not provided in reduce(), 
+JavaScript automatically takes the first element of the array as the
+ accumulator and starts iteration from the second element.*/

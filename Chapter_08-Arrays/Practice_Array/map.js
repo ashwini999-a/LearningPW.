@@ -1,22 +1,30 @@
-/*2️⃣ map() — Transform Every Element
+2️⃣ map() — Transform Every Element
+
+let scores = [45, 82, 91, 60, 73];
 let grades = scores.map(s => s > 70 ? "Pass" : "Fail");
 console.log(grades);
-What map() does
 
+
+/*What map() does
 It checks every element
-
 It creates a new array
-
 It does not change the original array*/
 
 
 
 //2️⃣ map() — Transform Every Element
 
-//let scores = [45, 82, 91, 60, 73];
-//let grades = scores.map(s => s > 70 ? "Pass" : "fail")
-//console.log(grades);
+let scores = [45, 82, 91, 60, 73];
+let grades = scores.map(s => s > 70 ? "Pass" : "fail")
+console.log(grades);
 
+/*The ? is part of the Ternary Operator in JavaScript.
+The ternary operator is a short way to write an if–else condition.
+Syntax of Ternary Operator
+condition ? value_if_true : value_if_false
+? → means if the condition is true
+: → means else
+*/
 
 let scores = [45, 82, 91, 60, 73];
 let grades = scores.map(n => n > 80 ? "GradeA" : "GradeB")
@@ -32,7 +40,7 @@ let result = numbers.map(b => b * 2)
 console.log(result)*/
 
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-let result = numbers.map(b => b - 2)
+let result = numbers.map(b => b * 2)
 console.log(result)
 
 
@@ -42,11 +50,7 @@ console.log(result)
 
 It is a short way to write a function in JavaScript.
 /*Example:
-
 numbers.map(n => n * 2)
-
 Here:
-
 n = each number in the array
-
 The function multiplies each number by 2*/

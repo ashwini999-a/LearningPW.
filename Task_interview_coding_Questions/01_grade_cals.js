@@ -7,7 +7,7 @@
 // Invalid      → Error message
 
 let grade;
-let score = "Pramod";
+let score = 1;
 
 if (typeof score !== "number") {
     console.log("Are you fool,why you are gving score as not a number");
@@ -34,3 +34,5 @@ else if (score >= 60) {
 }
 console.log("For the score", score, "Grade is ->", grade);
 console.log(`For the score ${score} "Grade is -> ", ${grade}`);
+
+console.log("For the score",score,"Grade is =>" Grade);
