@@ -9,7 +9,7 @@ let score2 = 45;
 let result2 = score2 >= 70 ? "pass" : "fail";
 console.log(result2);
 
-function getResult(scroe) {
+function getResult(score) {
     return score2 >= 70 ? "pass" : "fail";
 }
 

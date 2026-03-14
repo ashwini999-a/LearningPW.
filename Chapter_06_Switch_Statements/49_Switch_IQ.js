@@ -17,3 +17,15 @@ switch (x) {
 }
 
 // IT will allow you to have the duplicate case with first as the usage. 
+switch (x) {
+    case 10:
+        console.log("Value is 10");
+        break;
+
+    case 20:
+        console.log("Value is 20");
+        break;
+
+    default:
+        console.log("Default");
+}

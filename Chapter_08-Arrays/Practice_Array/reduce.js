@@ -93,6 +93,13 @@ console.log(min);
 
 
 
-/*If the initial value is not provided in reduce(), 
-JavaScript automatically takes the first element of the array as the
- accumulator and starts iteration from the second element.*/
+
+let arr = [1, 2, 2, 3, 3, 3, 4];
+let max = arr.reduce((a, b) => a > b ? a : b);
+console.log(max);
+
+
+
+let arr = [1, 2, 2, 3, 3, 3, 4];
+let min = arr.reduce((a, b) => a < b ? a : b);
+console.log(min);
