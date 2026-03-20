@@ -46,3 +46,8 @@ let students = ["methis", "senthil", "ajay", "rahul"];
 for (let student in students) {
     console.log((student, "=>", students[student]));
 };
+
+
+for (let [i, student] of students.entries()); {
+    console.log(i, student);
+}

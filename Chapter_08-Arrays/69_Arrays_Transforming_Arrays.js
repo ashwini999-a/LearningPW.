@@ -1,9 +1,9 @@
 
-let scores = [45, 82, 91, 60, 73];
+//let scores = [45, 82, 91, 60, 73];
 
 // map — transforms every element, returns NEW array
 
-let grades = scores.map(s => s > 70 ? "Pass" : "Fail");
+/*let grades = scores.map(s => s > 70 ? "Pass" : "Fail");
 console.log(grades);
 
 
@@ -19,4 +19,13 @@ console.log(total);
 
 // flat — flattens nested arrays
 let nested = [[1, 2], [3, 4], [5]];
-console.log(nested.flat());
+console.log(nested.flat());*/
+
+
+let scores = [45, 82, 91, 60, 73];
+let max = scores.reduce((a, b) => a > b ? a : b);
+console.log(max);
+
+
+let min = scores.reduce((a, b) => a < b ? a : b);
+console.log(min);
