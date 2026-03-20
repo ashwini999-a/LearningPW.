@@ -4,5 +4,4 @@ function runTest(name, status, duration) {
 }
 
 // Arguments
-runTest("Login", "pass", 320);
-// "Login: pass (320ms)"
+console.log(runTest("Login", "pass", 320));
