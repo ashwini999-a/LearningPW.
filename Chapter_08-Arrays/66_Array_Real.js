@@ -8,13 +8,13 @@ browser.pop();
 console.log(browser);
 
 console.log("------------ TTA --------");
-
+let browser = ['chrome', 'firefox', 'safari', 'opera', 'edge'];
 let removed = browser.shift();
 console.log(browser);
 console.log(removed);
 
 console.log("------------ TTA --------");
-
+let browser = ['chrome', 'firefox', 'safari', 'opera', 'edge'];
 for (let i = 0; i < browser.length; i++) {
     console.log(browser[i]);
     if (browser[i] === "opera") {

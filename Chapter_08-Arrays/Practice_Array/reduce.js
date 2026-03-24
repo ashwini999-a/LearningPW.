@@ -64,7 +64,7 @@ This is useful for counting duplicates, analyzing data,
 
 */
 
-
+Count how many times each number appears in an array
 /*let arr = [1, 2, 2, 3, 3, 3, 4];
 
 let count = arr.reduce((acc, num) => {
