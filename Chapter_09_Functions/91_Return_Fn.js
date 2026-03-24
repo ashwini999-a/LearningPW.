@@ -6,9 +6,9 @@ function getStatus(code) {
     if (code >= 500) return "server error";
 }
 
-getStatus(200);  // "success"
-getStatus(404);  // "client error"
-getStatus(500);  // "server error"
+console.log(getStatus(200));  // "success"
+console.log(getStatus(404));  // "client error"
+console.log(getStatus(500));  // "server error"
 
 
 // Returns nothing → undefined

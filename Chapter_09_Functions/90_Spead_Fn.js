@@ -13,6 +13,8 @@ add(...num);  //. sum -> 6
 function hasError(...codes) {
     return codes.some(c => c >= 400);
 }
+let result = hasError(200, 201, 404);
+console.log(result);
 
 let responseCodes = [200, 201, 404];
 

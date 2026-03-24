@@ -26,10 +26,11 @@
 //     return `Hello, ${name}!`;
 // }
 
-// ❌ Expression — NOT hoisted
-
-sayHi("Bob");
+// ❌ Expression — NOT hois
 
 const sayHi = function (name) {
-    return `Hi, ${name}!`;
+    console.log('Hello')
+    return `Hi, ${name}!`
 };
+let result = sayHi("Bob");
+console.log(result);
