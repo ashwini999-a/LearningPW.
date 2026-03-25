@@ -1,0 +1,59 @@
+
+/* What is an object in JavaScript? 
+ Answer: An object in JavaScript is a collection of data stored as key–value pairs. For example: const obj = {a: 1, b: 2, c: 3}; In this example a, b, c are keys and 1, 2, 3 are respective value of that key
+
+**How do you access object properties?
+Answer: For example: const obj = {name: "Jenny"};
+Using method Object.getOwnPropertyDescriptor(obj, "name");
+
+**Difference between dot and bracket notation
+Answer:Dot Notation:
+/We use dot notation when you already know the exact property name. It is simple and easy to read.
+Example: student.name
+Bracket notation ([])
+We use bracket notation when the property name is not fixed or is stored in a variable. It is also used if the property name has spaces or special characters.
+Example: student["name"]
+
+
+**How to add and delete properties?
+Answer:let person = {
+  name: "Spider-Man",
+  city: "NYC"
+};
+console.log(person);
+delete
+delete person.city
+ console.log(person);
+add
+ person.city"Mumbai"
+ console.log(person);
+
+** How to check if a property exists?
+Answer: 
+const user = {name: "Jenny", age: 30};
+console.log(Object.hasOwn(user,'name1')); 
+Object.hasOwn(object, "key") - check if the property exists or not. Return true if exist, false- otherwise
+
+**What is Object.keys()?
+Answer: Object.keys() gives key from the object 
+For example: 
+const user = {name: "jenny", age: 30};
+console.log(Object.keys(user));
+
+**What is Object.values()?
+ Answer: Object.values() gives value from the object 
+ For example: 
+const user = {name: "jenny", age: 30};
+console.log(Object.values(user));
+
+**What is Object.entries()?
+Answer: It gives key:value pair 
+const user = {name: "aradhya", age: 13};
+console.log(Object.entries(user));
+output: [ [ 'name', 'aradhya' ], [ 'age', 13 ] ]
+
+**How to loop through an object?
+Answer: const user = {name: "Jenny", age: 30};
+for(const key in user){
+     console.log(`${key}: ${user[key]}`);*/
+

@@ -23,3 +23,15 @@ console.log(url.search(/login/)); // regex
 
 url.search(/\d+/);
 
+
+
+
+const userUrl = "https://example.com/admin";
+if (userUrl.search(/\/us/) !== -1) {
+    console.log("valid email link");
+}
+else {
+    console.log("Invalid email link")
+}
+
+
