@@ -18,7 +18,7 @@ console.log(arr);
 
 // Remove from BEGINNING
 arr.shift();
-console.log(arr);*
+console.log(arr);
 
 // [ 1, 2, 3, 5, 6 ]
 
@@ -30,4 +30,4 @@ arr.splice(2, 0, 99);
 console.log(arr);
 
 arr.splice(1, 2, 10, 20);
-console.log(arr);   1   1``
+console.log(arr);   

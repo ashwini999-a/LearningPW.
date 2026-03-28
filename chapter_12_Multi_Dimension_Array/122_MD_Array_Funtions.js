@@ -32,3 +32,4 @@ let execTimes = [
 ];
 
 // 3x4
+let rowsums=scores.map(row=>reduce((a,b)=>a+b,0))
