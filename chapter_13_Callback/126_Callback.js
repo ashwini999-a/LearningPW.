@@ -1,16 +1,15 @@
 // Callback
 
-function placeOrder(item, callback) {
-    console.log("Placing order");
-    callback(); // function call
+function placeOrder (item,callback) {
+console.log("Placing order");
+    callback();
 }
 
-// Define
-function print() {
-    console.log("Normal Fn - Done with the order");
+function print(){
+    console.log("Done with the order");
 }
 
-// First Way
+    First Way
 // placeOrder("Burger", print);
 
 // Sencond Way Anoy

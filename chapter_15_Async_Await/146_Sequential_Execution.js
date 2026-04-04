@@ -13,6 +13,7 @@ function apiCall(name) {
 
     });
 }
+apiCall();
 
 
 async function sequenttialTest() {
@@ -33,3 +34,4 @@ async function sequenttialTest() {
 }
 
 sequenttialTest();
+
